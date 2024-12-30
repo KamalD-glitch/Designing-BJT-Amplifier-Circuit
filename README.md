@@ -47,12 +47,13 @@ The amplifier circuit consists of three stages:
 - **Stage 3: Common Emitter (CE) Amplifier**  
 
 #### Stage 1: CC Amplifier
-The CC amplifier was chosen to meet the required input resistance of greater than 20kΩ. This stage has a high input resistance and a low output resistance, making it ideal for the first stage of amplification.
+The CC amplifier was chosen to meet the required input resistance of greater than 20kΩ. This stage has a high input and low output resistance, making it ideal for the first amplification stage.
 
 #### Stages 2 and 3: CE Amplifiers
 The CE amplifiers were used in the second and third stages to achieve the required voltage gain. The second stage provides a gain of approximately 5, and the third stage amplifies the signal by a factor of about 10, resulting in a total voltage gain of around 50.
 
 <!---(PASTE THE MULTISIM CIRCUIT SCHEMATIC HERE) -->
+![Circuit Schematic](https://github.com/KamalD-glitch/Designing-BJT-Amplifier-Circuit/blob/main/BJT%20Design%20Schematic.png)
 ---
 
 ## Experimental Results
@@ -80,3 +81,9 @@ The experimental results show that the designed BJT amplifier circuit meets the 
 
 ---
 <!---(ADD THE FILES INCLUDED HERE AND CREATE HYPERLINKS TO EACH FILE) -->
+## Files Included
+
+- **Lab Report**: Contains hand-drawn designs, Multisim waveforms, schematic diagrams, and theoretical calculations.
+  - [Lab Report PDF](https://github.com/KamalD-glitch/Designing-BJT-Amplifier-Circuit/blob/main/KD%20ELE404%20Design%20Project.pdf)
+- **Simulation Files**: Files used for the circuit simulations in Multisim (e.g., `.ms14` files).
+  - [Multisim Simulation Files](https://github.com/KamalD-glitch/Designing-BJT-Amplifier-Circuit/tree/main/KD%20ELE404%20Multisim%20Simulations)
